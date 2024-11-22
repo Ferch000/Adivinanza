@@ -1,0 +1,42 @@
+
+.page-register {
+  background: url('/assets/img/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+ion-content.page-register {
+  --background: none;
+}
+
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+ion-card {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); 
+  color: #fff; 
+  border-radius: 15px;
+}
+
+
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.login-link a {
+  color: #1e90ff;
+}
