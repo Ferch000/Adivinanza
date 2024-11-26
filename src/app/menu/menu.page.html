@@ -1,6 +1,5 @@
 <ion-content class="ion-padding page-menu">
   <div class="menu-container">
-    
     <p class="ion-text-center">
       <ion-text color="primary">
         <h1><strong>Adivina el número</strong></h1>
@@ -8,14 +7,12 @@
       <ion-text>-- DSM Games --</ion-text>
     </p>
 
-    
     <ion-card class="menu-option" mode="ios" routerLink="/game" color="primary">
       <ion-card-header>
         <ion-card-title>Jugar</ion-card-title>
       </ion-card-header>
     </ion-card>
 
-    
     <ion-card class="menu-option" mode="ios" routerLink="/leaderboard" color="warning">
       <ion-card-header>
         <ion-card-title>Ranking</ion-card-title>
@@ -23,10 +20,9 @@
     </ion-card>
 
     
-    <ion-card class="menu-option" mode="ios" routerLink="/login" color="dark">
-      <ion-card-header>
-        <ion-card-title>Salir</ion-card-title>
-      </ion-card-header>
-    </ion-card>
+
+    <ion-button (click)="logout()" color="danger" expand="block">
+      Cerrar sesión
+    </ion-button>
   </div>
-</ion-content>
+</ion-content> <!-- Solo un cierre de ion-content -->

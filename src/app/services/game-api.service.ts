@@ -58,5 +58,9 @@ async statistics(): Promise<any>{
   .get(`${BASE_URL}/statistics`, {}) 
   .toPromise(); 
 } 
+async logout(): Promise<void> {
+  localStorage.removeItem('token');
+}
+
   //Métodos de cada ruta
 }
